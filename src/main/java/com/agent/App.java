@@ -37,7 +37,7 @@ public class App {
 
         // 3. Setup Tools (Tavily search)
         WebSearchEngine tavilyEngine = TavilyWebSearchEngine.builder()
-                .apiKey("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")
+                .apiKey("TAVILY_API_KEY")
                 .build();
         SearchTool searchTool = new SearchTool(tavilyEngine);
 
